@@ -1,0 +1,81 @@
+# ==========================================
+# Node.js & React Native (Frontend / Common)
+# ==========================================
+**/node_modules/
+**/.npm
+**/package-lock.json
+**/yarn.lock
+**/pnpm-lock.yaml
+**/.eslintcache
+**/.stylelintcache
+**/.prettiercache
+
+# React Native / Bundlers
+**/.expo/
+**/dist/
+**/web-build/
+**/metro.config.js.local
+
+# ==========================================
+# Django (Backend)
+# ==========================================
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+**/.pytest_cache/
+**/.coverage
+**/htmlcov/
+**/.flake8
+
+# Django específicos
+**/db.sqlite3
+**/db.sqlite3-journal
+**/media/
+**/staticfiles/
+
+# Virtual Environments
+**/.venv/
+**/venv/
+**/env/
+**/ENV/
+
+# ==========================================
+# Mobile (React Native específicos)
+# ==========================================
+# Android
+**/android/.gradle/
+**/android/build/
+**/android/app/build/
+**/*.aar
+**/*.apk
+**/*.aab
+
+# iOS
+**/ios/Pods/
+**/ios/build/
+**/ios/DerivedData/
+**/*.xcworkspace/
+**/*.xcodeproj/xcuserdata/
+**/*.xcodeproj/project.xcworkspace/
+
+# ==========================================
+# Configuración del Sistema y Variables de Entorno
+# ==========================================
+# Variables de entorno (¡Seguridad!)
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# Sistemas operativos
+**/.DS_Store
+**/Thumbs.db
+
+# Editores de código
+**/.vscode/
+**/.idea/
+**/*.suo
+**/*.ntvs*
+**/*.njsproj
+**/*.sln
